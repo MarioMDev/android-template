@@ -20,5 +20,15 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Android Template"
-include(":app")
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+include(
+    ":app",
+    ":core:common",
+    ":core:designsystem",
+    ":feature:home",
+    ":sample:remote",
+    ":sample:local"
+)
  
