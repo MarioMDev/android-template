@@ -19,7 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Android Template"
+rootProject.name = "android-template"
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
